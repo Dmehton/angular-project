@@ -5,6 +5,25 @@
     <button type="submit" class="btn btn-default">Submit</button>
  </form>
  
+<div ng-class="{hideIT: !pokeName }"> 
+     <div class="row">
+         <div class="col-sm-6">
+             <h2 class="title">{{pokeName}}</h2>
+             <div><img src="{{pokeImg}}"> <img src="{{pokeImgbk}}"></div>
+             <div><img src="{{pokeImg2}}"> <img src="{{pokeImgbk2}}"></div>
+             <h4 class="stats">Height: {{pokeHeight}}</h4>
+             <h4 class="stats">Weight: {{pokeWeight}}</h4>
+             <h4 class="stats">Base_Experience: {{pokeBasexp}}</h4>
+             
+             <h4 class="stats">Speed: {{pokeSpeed}}</h4>
+             <h4 class="stats">Special Attack: {{pokeSpecialAttack}}</h4>
+             <h4 class="stats">Special Defense: {{pokeDefense}}</h4>
+             <h4 class="stats">Special Attack: {{pokeAttack}}</h4>
+             <h4 class="stats">HP: {{pokeHP}}</h4>
+             
+         </div>
+     </div>
+</div> 
+
  
- <h1>{{pokeName}}</h1>
- <div><img src="{{pokeImg}}"></div>
+ 

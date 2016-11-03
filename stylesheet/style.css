@@ -1,0 +1,14 @@
+.title {
+    font-weight: 400;
+    font-size: 240%;
+    text-transform: uppercase;
+}
+
+.stats {
+    font-weight: 400;
+    font-size: 150%;
+}
+
+.hideIT{
+    display: none;
+}
